@@ -1,7 +1,54 @@
+div {
+  padding: 5px;
+
+  font-family: sans-serif;
+}
+
 .tree-container {
+  display: flex;
+
   border: 1px solid lightgrey;
   border-radius: 5px;
 
   margin-left: 30%;
   margin-right: 30%;
+
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: inherit;
+
+  overflow: auto;
+}
+
+.title-bar {
+  /*padding: 10px;*/
+  background-color: lightgrey;
+
+  width: 100%;
+  align-self: flex-start;
+}
+
+.title-bar h1{
+  margin: 5px;
+}
+
+.footer-bar {
+  display: flex;
+  /*align-self: flex-end;*/
+  justify-content: space-between;
+}
+
+.footer-bar button {
+  /*padding: 10px 10px 10px 10px;*/
+  /*background-color: lightblue;*/
+
+
+  /*line-height: 20px;*/
+}
+
+.tree-content{
+  height: 100%;
 }
