@@ -1,0 +1,14 @@
+{
+  "name": "tree-project-master",
+  "version": "1.0.0",
+  "description": "This exercise is to build something that represents the DOM tree of a website as a file and folder explorer.",
+  "main": "tree-traversal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "3.2.1"
+  }
+}

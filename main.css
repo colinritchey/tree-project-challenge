@@ -52,3 +52,27 @@ div {
 .tree-content{
   height: 100%;
 }
+
+.tree-content ul{
+  list-style: none;
+}
+
+.tree-content .hidden{
+  display: none;
+}
+
+img {
+  display: inline-block;
+  position: absolute;
+  /*object-fit: none;
+  object-position: 0 0;
+  width: 100px;
+  height: 100px;*/
+}
+
+.clip{ position: absolute; top: 0; left: 0; }
+
+.img-folder{
+  clip: rect(0 10px 10px 0);
+  /*object-position: 0px 0px;*/
+}
