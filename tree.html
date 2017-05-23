@@ -31,8 +31,13 @@
       </div>
 
       <div class="footer-bar">
-        <a href="#">Link</a>
-        <button>Delete</button>
+        <div class="footer-content">
+          <a href="#">Link</a>
+          <button>Delete</button>
+          <!-- <div class="button">
+            <input type="button" value="Delete"></input>
+          </div> -->
+        </div>
       </div>
     </section>
 
@@ -42,9 +47,7 @@
     $(document).ready(function() {
       $('#folder').click(function(e) {
         var children = e.target.children;
-        // console.log(e.target.children);
         $.each(children, (idx, el) => {
-          // $(el).css("display", "block");
           $(el).toggle();
         });
       });
